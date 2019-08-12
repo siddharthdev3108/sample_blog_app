@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: secondapp_db
+  pool: 5
+  username: enbake
+  password: enbake
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: secondapp_db
+  pool: 5
+  username: 
+  password: 
+  # adapter: postgresql
+  # encoding: utf8
+  # database: barcode_prod
+  # pool: 5
+  # username: bug
+  # password: issue
+  # host: localhost
